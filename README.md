@@ -26,7 +26,7 @@ Supports the following:
 * Multiple commands per product
 * Multiple commands per product variation
 * Multiple Servers
-* MC Username verification ( we only support paid legit accounts via the Mojang API )
+* Cracked Minecraft accounts (you don't need to 
 * Resend Donations per-order ( should you need to wipe your server ).
 * More to come?!
 
@@ -36,7 +36,7 @@ Supports the following:
 * No, this only provides commands for products.
 
 ### Will you support offline servers?
-* No, under no circumstances will we ever support offline servers.
+* Yes, it will be/is implemented in 1.4
 
 ### What payment gateways does this support?
 * Anything? Well to be honest, this plugin does not mess with gateways at all. It relies solely on WooCommerce for the
