@@ -43,14 +43,14 @@ function validate_is_paid_player() {
 	// Grab JSON data
 	$mc_json = get_player_from_cache( $player_id );
 	if ( ! $mc_json ) {
-		wc_add_notice( __( 'We cannot retrieve your account from the Mojang API. Try again later, or contact an administrator.', 'woominecraft' ), 'error' );
+		wc_add_notice( __( 'You either provided an unpaid minecraft account name or your username is wrong! Please check username and contact the owner if it was wrong.', 'woominecraft' ), 'notice' );
 	}
 
-	if ( isset( $mc_json->demo ) ) {
+	/*if ( isset( $mc_json->demo ) ) {
 		wc_add_notice( __( 'We do not allow unpaid-accounts to make donations, sorry!', 'woominecraft' ), 'error' );
 
 		return;
-	}
+	}*/
 }
 
 
